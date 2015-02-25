@@ -13,8 +13,8 @@ $("h1.page-title").text("My code runs!");
 var x = $(window).width() / 2;
 var y = $(window).height() / 2;
 var theta = 0;
-var vtheta = Math.PI / 90;
-var r = 80;
+var vtheta = Math.PI / 100;
+var r = 140;
 setInterval(function () {
     $('.logo').css({
         'left': x + r * Math.cos(theta),
@@ -22,3 +22,13 @@ setInterval(function () {
     });
     theta = theta + vtheta;
 }, 10);
+
+function randomMargin() {
+    return Math.random() * 200 - 100;
+}
+setInterval(function () {
+    $('.logo').css({
+        'margin-left': randomMargin(),
+        'margin-top': randomMargin()
+    });
+}, 200);
