@@ -23,12 +23,11 @@ setInterval(function () {
     theta = theta + vtheta;
 }, 10);
 
-function randomMargin() {
-    return Math.random() * 200 - 100;
-}
-setInterval(function () {
-    $('.logo').css({
-        'margin-left': randomMargin(),
-        'margin-top': randomMargin()
-    });
-}, 200);
+$(window).on('click', function (e) {
+    $('img.logo').css({left: e.pageX});
+});
+
+$(window).on('click', function (e) {
+    $('img.logo').css({left: e.pageX,
+                       top: e.pageY});
+});
