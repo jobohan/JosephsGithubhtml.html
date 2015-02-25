@@ -107,12 +107,12 @@ setInterval(function () {
 var x = $(window).width() / 2;
 var y = $(window).height() / 2;
 var theta = 0;
-var vtheta = Math.PI / 180;
-var r = 60;
+var vtheta = Math.PI / 90;
+var r = 20;
 setInterval(function () {
     $('.logo').css({
         'left': x + r * Math.cos(theta),
         'top': y + r * Math.sin(theta)
     });
     theta = theta + vtheta;
-}, 20);
+}, 10);
