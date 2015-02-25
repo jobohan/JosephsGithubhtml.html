@@ -17,7 +17,9 @@ $(window).on('click', function (e) {
 
 
 $(window).on('click', function (e) {
-    $('.logo').css({left: e.pageX,
+    $('img.logo').css({left: e.pageX,
                     top: e.pageY});
-    $('.logo').toggleClass('rotated');
+    $('img.logo').toggleClass('rotated');
 });
+
+
