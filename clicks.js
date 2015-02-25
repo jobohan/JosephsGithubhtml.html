@@ -7,7 +7,7 @@
 $("h1.page-title").text("My code runs!");
 
 
-$(window).on('click', function (e) {
+$(window).on('mosemove', function (e) {
     $('.logo').css({left: e.pageX,
                     top: e.pageY});
     $('.logo').toggleClass('rotated');
