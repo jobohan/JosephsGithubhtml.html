@@ -21,5 +21,3 @@ $(window).on('click', function (e) {
                     top: e.pageY});
     $('.logo').toggleClass('rotated');
 });
-
-
