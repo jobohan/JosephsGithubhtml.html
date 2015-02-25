@@ -1,4 +1,4 @@
-.clicked {
+.mousemoved {
     color: darksalmon;
 }
 .logo {
@@ -12,5 +12,5 @@
 }
 
 .rotated {
-    transform: rotate(180deg);
+    transform: rotateY(180deg);
 }
