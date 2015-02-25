@@ -14,3 +14,9 @@ $(window).on('mousemove', function (e) {
 });
 
 
+setInterval(function () {
+    $('.logo').css({
+        'margin-left': 200 * Math.random() - 100
+    });
+}, 200);
+
