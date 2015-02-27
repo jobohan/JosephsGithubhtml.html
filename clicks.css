@@ -1,12 +1,14 @@
 .mousemoved {
-    color: darksalmon;
+    color: chartreuse;
 }
-.logo {
+
+
+.sun {
     position: absolute;
-    left: 1000%;
-    top: 1000%;
-    width: 500px;
-    height: 500px;
+    left: 200%;
+    top: 200%;
+    width: 100px;
+    height: 100px;
     margin-left: -64px;
     margin-top: -64px;
 }
