@@ -3,10 +3,10 @@
 }
 .logo {
     position: absolute;
-    left: 25%;
-    top: 25%;
-    width: 64px;
-    height: 64px;
+    left: 100%;
+    top: 100%;
+    width: 400px;
+    height: 400px;
     margin-left: -64px;
     margin-top: -64px;
 }
