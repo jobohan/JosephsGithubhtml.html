@@ -49,4 +49,19 @@
 
 .rotated {
     transform: rotateY(180deg);
+
+}
+
+.mars {
+    position: absolute;
+    left: 150%;
+    top: 150%;
+    width: 150px;
+    height: 150x;
+    margin-left: -64px;
+    margin-top: -64px;
+}
+
+.rotated {
+    transform: rotateY(180deg);
 }

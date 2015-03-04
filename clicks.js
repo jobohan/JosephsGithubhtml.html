@@ -43,4 +43,16 @@ setInterval(function () {
     theta = theta + vtheta;
 }, 20);
 
+var x3 = $(window).width() / 6;
+var y3 = $(window).height() / 6;
+var theta = 0;
+var vtheta = Math.PI / 300;
+var r = 400;
+setInterval(function () {
+    $('.mars').css({
+        'left': x3 + r * Math.cos(theta),
+        'top': y3 + r * Math.sin(theta)
+    });
+    theta = theta + vtheta;
+}, 20);
 
